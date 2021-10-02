@@ -1,12 +1,12 @@
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .baslig {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(150, 150, 150);
 }
 
 .baslig .xana a {
@@ -25,4 +25,45 @@ a {
     width: 592px;
     margin-left: auto;
     margin-right: auto
+}
+
+.ikinci-sehife {
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.ikinci-sehife div {
+    width: 200pxs;
+    height: 300px;
+    border: 1px solid rgb(104, 4, 4);
+}
+
+.ikinci-sehife .buttonn {
+    text-align: center;
+}
+
+.ikinci-sehife .buttonn button:hover {
+    background-color: #007bff;
+    color: oldlace;
+}
+
+.ikinci-sehife .buttoniki {
+    text-align: center;
+}
+
+.ikinci-sehife .buttoniki button:hover {
+    background-color: dodgerblue;
+    color: oldlace;
+}
+
+.ikinci-sehife .buttonuc {
+    text-align: center;
+}
+
+.ikinci-sehife .buttonuc button:hover {
+    background-color: dodgerblue;
+    color: floralwhite;
 }
