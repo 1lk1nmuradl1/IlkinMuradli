@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.baslig {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.baslig .xana a {
+    padding: 0px 10px;
+}
+
+.xana {
+    display: flex;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content h3 {
+    width: 592px;
+    margin-left: auto;
+    margin-right: auto
+}
