@@ -1,0 +1,54 @@
+* {
+    text-decoration: none;
+}
+
+.container {
+    width: 1330px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.menu .menu-item {
+    padding-left: 40px;
+}
+
+.menu-item a {
+    margin-left: 40px;
+}
+
+.menu-item button {
+    background-color: #74f692;
+    color: rgb(219, 219, 219);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.menu-text a {
+    margin: 40px;
+    color: seashell;
+}
+
+.sekil img {
+    width: 100%;
+}
+
+.main {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
