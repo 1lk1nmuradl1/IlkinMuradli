@@ -1,0 +1,33 @@
+.header {
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    color: aliceblue;
+}
+
+.nav ul li {
+    padding-left: 8%;
+    padding-right: 2%;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.header-contect {
+    color: aliceblue;
+    margin-left: 16%;
+}
+
+.header-contect h1 {}
