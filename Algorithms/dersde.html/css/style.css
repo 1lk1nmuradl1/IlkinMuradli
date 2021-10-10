@@ -1,0 +1,20 @@
+.faeture-container {
+    width: 1200px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 0px auto;
+}
+
+.features-items {
+    width: 290px;
+    height: 100;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.features-item {
+    width: 2px;
+    height: 5px;
+    margin: 10px;
+    border: 1px yellow;
+}
