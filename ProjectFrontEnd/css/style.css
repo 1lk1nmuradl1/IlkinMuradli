@@ -1,18 +1,15 @@
-.header {
-    position: relative;
+body {
+    background-color: black;
 }
 
-.container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+.nav {
+    padding: 50px 0px;
 }
 
 .nav ul {
     display: flex;
     justify-content: flex-end;
-    color: aliceblue;
+    color: wheat
 }
 
 .nav ul li {
@@ -25,9 +22,26 @@ li {
     cursor: pointer;
 }
 
-.header-contect {
-    color: aliceblue;
+.header-content {
+    color: wheat;
     margin-left: 16%;
+    margin-top: 70px;
 }
 
-.header-contect h1 {}
+.header-content {
+    font-size: 120px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.photo img {
+    width: 99%;
+}
+
+.bio h1 {
+    color: wheat;
+}
+
+.bio p {
+    color: wheat;
+}
