@@ -38,8 +38,29 @@ li {
     width: 99%;
 }
 
+.about {
+    margin: 50px 0;
+}
+
+.about-photos {
+    padding: 20px;
+}
+
+.about-photos img {
+    width: 100%;
+}
+
+.bio {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .bio h1 {
     color: wheat;
+    font-size: 50px;
 }
 
 .bio p {
