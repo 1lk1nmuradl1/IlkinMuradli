@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+}
+
+.slider {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: darkred;
+    font-size: 30px;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    color: darkred;
+    font-size: 30px;
+}
