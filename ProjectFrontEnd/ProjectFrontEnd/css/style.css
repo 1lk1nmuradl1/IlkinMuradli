@@ -36,6 +36,7 @@ li {
 
 .photo img {
     width: 100%;
+    border-radius: 50px;
 }
 
 .about {
@@ -48,6 +49,7 @@ li {
 
 .about-photos img {
     width: 100%;
+    border-radius: 50px;
 }
 
 .bio {
